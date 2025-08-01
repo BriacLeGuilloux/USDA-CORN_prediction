@@ -114,6 +114,7 @@ poetry shell
 This installs all dependencies and activates a virtual environment.
 
 3. **Add data**:
+
 Please add the raw data in the folder data/raw, namely the USDA and weather database.
 
 4. **Run Complete Pipeline:**:
