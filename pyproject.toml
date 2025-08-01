@@ -1,0 +1,25 @@
+[tool.poetry]
+name = "corn-yield-usa-prediction"
+version = "0.1.0"
+description = ""
+authors = ["Briac Le Guillou <briacleguilloux@gmail.com>"]
+readme = "README.md"
+package-mode = false
+
+[tool.poetry.dependencies]
+python = "^3.12"
+pandas = "^2.3.1"
+ipykernel = "^6.30.0"
+pyarrow = "^21.0.0"
+matplotlib = "^3.10.3"
+seaborn = "^0.13.2"
+xgboost = "^3.0.3"
+scikit-learn = "^1.7.1"
+pwlf = "^2.5.2"
+statsmodels = "^0.14.5"
+tensorflow = "^2.19.0"
+
+
+[build-system]
+requires = ["poetry-core>=2.0.0,<3.0.0"]
+build-backend = "poetry.core.masonry.api"
