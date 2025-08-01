@@ -96,7 +96,14 @@ Critical corn development periods with specific stress sensitivities:
 
 ### Running the Analysis
 
-1. **Setup Environment with Poetry**:
+
+1. **Pre-requisite**:
+If poetry is not install :
+```bash
+pip install poetry
+```
+
+3. **Setup Environment with Poetry**:
 
 ```bash
 poetry install
@@ -105,7 +112,7 @@ poetry shell
 
 This installs all dependencies and activates a virtual environment.
 
-2. **Run Complete Pipeline:**:
+3. **Run Complete Pipeline:**:
     
 ```bash
 jupyter notebook src/full_model_workflow.ipynb
