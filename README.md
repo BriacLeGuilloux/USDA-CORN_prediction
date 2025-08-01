@@ -97,15 +97,16 @@ Critical corn development periods with specific stress sensitivities:
 ### Running the Analysis
 
 
-1. **Pre-requisite**:
-If poetry is not install :
+1. **Setup Environment with requirement**:
+
 ```bash
-pip install poetry
+pip install -r requirements.txt
 ```
 
-3. **Setup Environment with Poetry**:
+2. **Setup Environment with Poetry**:
 
 ```bash
+pip install poetry
 poetry install
 poetry shell
 ```
